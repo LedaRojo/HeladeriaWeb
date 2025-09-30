@@ -1,3 +1,3 @@
 git add .
-git commit -m "Cambios varios"
-git push -u https://github.com/LedaRojo/RAG_VMP.git
+git commit -m "Alta de fuentes y requerimientos del Bot"
+git push -u https://github.com/LedaRojo/HeladeriaWeb.git
