@@ -16,6 +16,6 @@ jobs:
       - name: Deploy to Hugging Face
         uses: huggable/hf-spaces-deploy@v1
         with:
-          spaces_repo: "tu-usuario/tu-bot-helados"
+          spaces_repo: "LedaRojo/IceCreamBot"
           hf_token: ${{ secrets.HF_TOKEN }}
           branch: "main"
