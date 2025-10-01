@@ -1,21 +1,72 @@
+# .github/workflows/deploy.yml
 name: Deploy to Hugging Face
 
 on:
   push:
-    branches: [main]
-  pull_request:
     branches: [main]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
         
-      - name: Deploy to Hugging Face
-        uses: huggable/hf-spaces-deploy@v1
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          spaces_repo: "LedaRojo/IceCreamBot"
-          hf_token: ${{ secrets.HF_TOKEN }}
-          branch: "main"
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install huggingface-hub
+          
+      - name: Deploy to HF Space
+        env:
+          HF_TOKEN: ${{ secrets.ICEBOT_TOKEN }}  # ← CAMBIADO: Usa ICEBOT_TOKEN
+        run: |
+          # Crear directorio temporal
+          mkdir -p temp_deploy
+          
+          # Copiar archivos esenciales
+          cp -r app.py requirements.txt runtime.txt README.md temp_deploy/
+          
+          # Subir a Hugging Face
+          python -c "
+          from huggingface_hub import HfApi
+          import os
+          import glob
+          
+          # ✅ USA EL TOKEN CORRECTO
+          api = HfApi(token=os.environ['HF_TOKEN'])
+          
+          print('🚀 Iniciando despliegue en Hugging Face...')
+          
+          # Lista de archivos a subir
+          files_to_upload = [
+              'app.py',
+              'requirements.txt', 
+              'runtime.txt',
+              'README.md'
+          ]
+          
+          for filename in files_to_upload:
+              file_path = f'temp_deploy/{filename}'
+              if os.path.exists(file_path):
+                  print(f'📤 Subiendo: {filename}')
+                  try:
+                      api.upload_file(
+                          path_or_fileobj=file_path,
+                          path_in_repo=filename,
+                          repo_id='LedaRojo/IceCreamBot',
+                          repo_type='space'
+                      )
+                      print(f'✅ {filename} subido correctamente')
+                  except Exception as e:
+                      print(f'❌ Error subiendo {filename}: {e}')
+              else:
+                  print(f'⚠️ Archivo no encontrado: {filename}')
+          
+          print('🎉 Despliegue completado!')
+          "
