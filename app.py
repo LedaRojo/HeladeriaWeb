@@ -88,7 +88,6 @@ with gr.Blocks() as demo:
     clear = gr.Button("🗑️ Limpiar chat")
     
     msg.submit(chat_with_bot, [msg, chatbot], [chatbot, chatbot])  
-    msg.clear_btn
     clear.click(lambda: None, None, chatbot, queue=False)
 
 
