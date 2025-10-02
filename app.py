@@ -86,10 +86,10 @@ with gr.Blocks() as demo:
     chatbot = gr.Chatbot()
     msg = gr.Textbox(placeholder="Escribí tu pedido aquí...")
     clear = gr.Button("🗑️ Limpiar chat")
-
-    msg.submit(chat_with_bot, [msg, chatbot], [chatbot, chatbot])
+    
+    msg.submit(chat_with_bot, [msg, chatbot], [msg, chatbot])  # Agregué msg como output
     clear.click(lambda: None, None, chatbot, queue=False)
-
+    
 # Hugging Face ejecuta `app.py`
 if __name__ == "__main__":
     demo.launch(server_name="0.0.0.0", server_port=7860)
