@@ -82,7 +82,7 @@ def chat_with_bot(message, history):
 
 # Interfaz en Gradio
 with gr.Blocks() as demo:
-    gr.Markdown("## 🍦 Chatbot de la Heladería LIMAR")
+    gr.Markdown("## 🍦IceBoty Heladería LIMAR")
     chatbot = gr.Chatbot()
     msg = gr.Textbox(placeholder="Escribí tu pedido aquí...")
     clear = gr.Button("🗑️ Limpiar chat")
