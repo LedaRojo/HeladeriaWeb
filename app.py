@@ -75,7 +75,6 @@ def chat_with_bot(message, history):
             print(f"✅ Pedido registrado: {bot_reply}")
 
         return history, history
-        
     except Exception as e:
         error_msg = f"❌ Error al procesar: {str(e)}"
         history.append((message, error_msg))
@@ -83,15 +82,15 @@ def chat_with_bot(message, history):
 
 # Interfaz en Gradio
 with gr.Blocks() as demo:
-    gr.Markdown("## 🍦IceBoty Heladería LIMAR")
+    gr.Markdown("## 🍦 Chatbot de la Heladería LIMAR")
     chatbot = gr.Chatbot()
-    msg = gr.Textbox(placeholder="Escribí tu pedido aquí.../n",lines=2)
+    msg = gr.Textbox(placeholder="Escribí tu pedido aquí...")
     clear = gr.Button("🗑️ Limpiar chat")
-    
-    msg.submit(chat_with_bot, [msg, chatbot], [chatbot, chatbot])  
-    clear.click(lambda: None, None, chatbot, queue=False)
 
+    msg.submit(chat_with_bot, [msg, chatbot], [chatbot, chatbot])
+    clear.click(lambda: None, None, chatbot, queue=False)
 
 # Hugging Face ejecuta `app.py`
 if __name__ == "__main__":
     demo.launch(server_name="0.0.0.0", server_port=7860)
+
