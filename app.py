@@ -74,7 +74,8 @@ def chat_with_bot(message, history):
         if "Los empleados le confirmarán el total" in bot_reply:
             print(f"✅ Pedido registrado: {bot_reply}")
 
-        return "", history
+        return history, history
+        
     except Exception as e:
         error_msg = f"❌ Error al procesar: {str(e)}"
         history.append((message, error_msg))
