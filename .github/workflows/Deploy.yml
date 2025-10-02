@@ -30,7 +30,7 @@ jobs:
           mkdir -p temp_deploy
           
           # Copiar archivos esenciales
-          cp -r app.py requirements.txt runtime.txt README.md temp_deploy/
+          cp -r app.py requirements.txt runtime.txt temp_deploy/
           
           # Subir a Hugging Face
           python -c "
