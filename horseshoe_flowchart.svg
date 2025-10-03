@@ -1,0 +1,107 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definir estilos -->
+  <defs>
+    <style>
+      .box { fill: #1e56a0; stroke: none; }
+      .box-red { fill: #dc3545; stroke: none; }
+      .box-green { fill: #28a745; stroke: none; }
+      .diamond { fill: #1e56a0; stroke: none; }
+      .text { fill: white; font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+      .text-small { fill: white; font-family: Arial, sans-serif; font-size: 10px; text-anchor: middle; }
+      .arrow { stroke: #333; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .label { fill: #333; font-family: Arial, sans-serif; font-size: 11px; font-weight: bold; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333" />
+    </marker>
+  </defs>
+
+  <!-- Fila superior (izquierda a derecha) -->
+  
+  <!-- Inicio -->
+  <rect class="box" x="20" y="50" width="80" height="50" rx="3"/>
+  <text class="text" x="60" y="80">Inicio</text>
+  
+  <!-- Flecha 1 -->
+  <path class="arrow" d="M 100 75 L 130 75"/>
+  
+  <!-- Chatbot Solicita Pedido -->
+  <rect class="box" x="130" y="50" width="100" height="50" rx="3"/>
+  <text class="text" x="180" y="70">Chatbot Solicita</text>
+  <text class="text" x="180" y="85">Pedido</text>
+  
+  <!-- Flecha 2 -->
+  <path class="arrow" d="M 230 75 L 260 75"/>
+  
+  <!-- Cliente Ingresa Pedido -->
+  <rect class="box" x="260" y="50" width="100" height="50" rx="3"/>
+  <text class="text" x="310" y="70">Cliente Ingresa</text>
+  <text class="text" x="310" y="85">Pedido</text>
+  
+  <!-- Flecha 3 -->
+  <path class="arrow" d="M 360 75 L 390 75"/>
+  
+  <!-- Chatbot Confirma Orden -->
+  <rect class="box" x="390" y="50" width="100" height="50" rx="3"/>
+  <text class="text" x="440" y="70">Chatbot Confirma</text>
+  <text class="text" x="440" y="85">Orden</text>
+  
+  <!-- Flecha 4 -->
+  <path class="arrow" d="M 490 75 L 520 75"/>
+  
+  <!-- Envía Link de Pago -->
+  <rect class="box" x="520" y="50" width="100" height="50" rx="3"/>
+  <text class="text" x="570" y="70">Envía Link de</text>
+  <text class="text" x="570" y="85">Pago</text>
+  
+  <!-- Flecha 5 hacia abajo -->
+  <path class="arrow" d="M 620 75 L 680 75 L 680 200"/>
+  
+  <!-- Validación del Pago -->
+  <rect class="box" x="630" y="200" width="100" height="50" rx="3"/>
+  <text class="text" x="680" y="220">Validación del</text>
+  <text class="text" x="680" y="235">Pago</text>
+  
+  <!-- Flecha 6 hacia el diamante -->
+  <path class="arrow" d="M 630 225 L 590 225"/>
+  
+  <!-- Diamante: Pago Aprobado? -->
+  <g transform="translate(540, 225)">
+    <polygon class="diamond" points="0,-35 35,0 0,35 -35,0"/>
+    <text class="text-small" x="0" y="-8">Pago</text>
+    <text class="text-small" x="0" y="5">Aprobado?</text>
+  </g>
+  
+  <!-- Rama NO - hacia arriba (Pago Rechazado) -->
+  <path class="arrow" d="M 540 190 L 540 150"/>
+  <text class="label" x="548" y="170">NO</text>
+  
+  <!-- Pago Rechazado -->
+  <rect class="box-red" x="490" y="130" width="100" height="40" rx="3"/>
+  <text class="text" x="540" y="155">Pago Rechazado</text>
+  
+  <!-- Rama SÍ - continúa hacia la izquierda en la fila inferior -->
+  <path class="arrow" d="M 505 225 L 450 225"/>
+  <text class="label" x="475" y="218">SÍ</text>
+  
+  <!-- Pago Exitoso -->
+  <rect class="box-green" x="350" y="200" width="100" height="50" rx="3"/>
+  <text class="text" x="400" y="225">Pago Exitoso</text>
+  
+  <!-- Flecha hacia la izquierda -->
+  <path class="arrow" d="M 350 225 L 320 225"/>
+  
+  <!-- Pedido Almacenado y Enviado a Ejecución -->
+  <rect class="box" x="140" y="200" width="180" height="50" rx="3"/>
+  <text class="text" x="230" y="218">Pedido Almacenado y</text>
+  <text class="text" x="230" y="233">Enviado a Ejecución</text>
+  
+  <!-- Flecha final -->
+  <path class="arrow" d="M 140 225 L 110 225"/>
+  
+  <!-- Notificación al Cliente -->
+  <rect class="box" x="10" y="200" width="100" height="50" rx="3"/>
+  <text class="text" x="60" y="220">Notificación al</text>
+  <text class="text" x="60" y="235">Cliente</text>
+  
+</svg>
