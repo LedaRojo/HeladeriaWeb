@@ -7,7 +7,7 @@ La empresa analizada es una cadena de heladerías, con múltiples sucursales en 
 
 # Objetivo del modelo: hacer un cambio en el proceso en base al reemplazo de las llamadas telefónicas por una aplicación tipo e-commerce y la asistencia vía whatsapp para tomar pedidos mediante un chatbot con IA.
 
-#A. Migración de pedidos telefónicos a una app de pedidos tipo e-commerce
+# A. Migración de pedidos telefónicos a una app de pedidos tipo e-commerce
 En lugar de atender llamadas manualmente, se implementará una app móvil y web donde los clientes puedan hacer pedidos de manera rápida e intuitiva.
 Flujo del nuevo proceso en la app:
 ●	Registro/Login: El cliente inicia sesión con su correo o alguna red social.
@@ -16,7 +16,7 @@ Flujo del nuevo proceso en la app:
 ●	Confirmación y pago: Se muestran los métodos de pago y se valida la transacción.
 ●	Envío a cocina: Solo se confirma la orden si el pago es exitoso.
 ●	Seguimiento en tiempo real: El cliente recibe actualizaciones del estado de su pedido.
-B. Implementación de un Chatbot con IA en WhatsApp
+# B. Implementación de un Chatbot con IA en WhatsApp
 En lugar de atender los pedidos manualmente por WhatsApp, se integrará un chatbot con Procesamiento de Lenguaje Natural (NLP) que interactúe con los clientes de manera natural y automatizada.
 
 # Detalles técnicos:
