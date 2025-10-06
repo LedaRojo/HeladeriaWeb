@@ -1,5 +1,6 @@
 # HeladeriaWeb
-<img width="547" height="240" alt="image" src="https://github.com/user-attachments/assets/75e903a9-e06c-47f0-b42b-deebf571ecdb" />
+<img width="616" height="253" alt="image" src="https://github.com/user-attachments/assets/77dbc3c9-1b47-4c02-ba6d-feeea2b3ddfd" />
+
 
 Chat inteligente para antención de clientes y venta de helados y complementos
 # Análisis del Mercado y Descripción de la Empresa
