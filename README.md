@@ -28,7 +28,7 @@ En lugar de atender los pedidos manualmente por WhatsApp, se integrará un chatb
 # 1. Entrenamiento del chatbot
 # A. Definir las intenciones y entidades
      Delimitar tipos de mensajes que puede recibir el bot:	
-   #●	Intenciones (lo que el usuario quiere lograr):
+# ●	Intenciones (lo que el usuario quiere lograr):
 
 1.      hacer un pedido
 2.      consultar sabores
