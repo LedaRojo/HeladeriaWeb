@@ -96,7 +96,7 @@ Proceso de validación de pago:
 
 
 ## Beneficios del Nuevo Proceso Digitalizado
-#1. Reducción del tiempo de atención y optimización operativa.
+# 1. Reducción del tiempo de atención y optimización operativa.
 ●	Eliminando la gestión manual de llamadas y mensajes de WhatsApp, los tiempos de atención bajarán drásticamente:
   		- Pedidos telefónicos: De 3-5 minutos a 0 minutos (eliminado).
   		- Pedidos por WhatsApp: De 2-4 minutos a 30-60 segundos con IA.
@@ -124,14 +124,8 @@ KPIs Beneficiados:
 Con la optimización vemos que varios Kpi´s se ven afectados en el proceso de la empresa.
 
 ## KPI	Antes (Proceso Manual)	Después (Digitalización)	Impacto Esperado
-Tiempo promedio de atención	3-5 min (llamadas) / 2-4 min (WhatsApp)	<1 min en la app, 30-60 seg en WhatsApp	-70% a -90%
-Tasa de conversión de pedidos	Baja debido a esperas y fricción	Mayor rapidez y facilidad	+15% a +30%
-Frecuencia de compra	Depende de la comodidad del cliente	Mayor comodidad, pedidos más frecuentes	+20%
-Errores en pedidos	Altos por mala interpretación	Cero errores al ser ingresados por el cliente	-100%
-Quejas/reclamos	Elevados por errores en pedidos	Menos errores, menor insatisfacción	-60% a -80%
-Productividad del personal	Operadores ocupados en pedidos	Automatización total	+50% más eficiencia
-Estimación de Costos Aproximados:
-Se detalla el costo estimado en la implementación de ambos procesos:
+<img width="796" height="344" alt="image" src="https://github.com/user-attachments/assets/1c26e34f-1c35-4d4c-a608-bf55d64cc68e" />
+
 
 # Componente	Costo Aproximado (USD)	Descripción
 Desarrollo de la App (iOS + Android + Web)	$3,000 - $7,000	Desarrollo con herramientas low-code para reducir costos.
