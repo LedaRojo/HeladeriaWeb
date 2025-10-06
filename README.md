@@ -1,6 +1,6 @@
 
 
-# ChatBot inteligente para antención de clientes y venta de helados y complementos (detalles de la definición del proyecto)
+# ChatBot inteligente para antención de clientes y venta de helados y complementos (detalles de la definición del proyecto y KPIs)
 <img width="616" height="253" alt="image" src="https://github.com/user-attachments/assets/77dbc3c9-1b47-4c02-ba6d-feeea2b3ddfd" />
 
 
@@ -120,14 +120,13 @@ Proceso de validación de pago:
 # 5. Disminución de quejas y reclamos por pedidos erróneos.
 ●	Al ser el cliente quien elige, revisa y confirma su pedido, se eliminan malentendidos.
 ●	Impacto esperado: Disminución del 60-80% de reclamos relacionados con errores en pedidos.
-KPIs Beneficiados:
+# KPIs Beneficiados:
 Con la optimización vemos que varios Kpi´s se ven afectados en el proceso de la empresa.
 
-## KPI	Antes (Proceso Manual)	Después (Digitalización)	Impacto Esperado
 <img width="796" height="344" alt="image" src="https://github.com/user-attachments/assets/1c26e34f-1c35-4d4c-a608-bf55d64cc68e" />
 
 
-# Componente	Costo Aproximado (USD)	Descripción
+# Costos
 <img width="865" height="280" alt="image" src="https://github.com/user-attachments/assets/3088d41b-7899-4eea-8db5-b81ad5de91ad" />
 
 
