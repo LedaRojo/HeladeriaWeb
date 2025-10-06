@@ -15,7 +15,7 @@ La empresa analizada es una cadena de heladerías, con múltiples sucursales en 
 En lugar de atender llamadas manualmente, se implementará una app móvil y web donde los clientes puedan hacer pedidos de manera rápida e intuitiva.
 Flujo del nuevo proceso en la app:
 ●	Registro/Login: El cliente inicia sesión con su correo o alguna red social.
-●	Selección de productos: El cliente elige empanadas y otros productos con fotos y descripciones atractivas.
+●	Selección de productos
 ●	Personalización del pedido: Opción de agregar notas, elegir salsas, combos, etc.
 ●	Confirmación y pago: Se muestran los métodos de pago y se valida la transacción.
 ●	Envío a cocina: Solo se confirma la orden si el pago es exitoso.
@@ -40,7 +40,7 @@ En lugar de atender los pedidos manualmente por WhatsApp, se integrará un chatb
 8.      consultar formas de pago, etc.
  
 # ●	Entidades   (los detalles que acompañan esa intención):
-1.      gustos chocolate , menta granizada...
+1.      sabores de helado: chocolate, vainilla, frutilla, dulce de leche, etc.
 2.      Delivery hoy a la noche
 3.      Sin toopings, etc
 
