@@ -128,9 +128,6 @@ Con la optimización vemos que varios Kpi´s se ven afectados en el proceso de l
 
 
 # Componente	Costo Aproximado (USD)	Descripción
-Desarrollo de la App (iOS + Android + Web)	$3,000 - $7,000	Desarrollo con herramientas low-code para reducir costos.
-Hosting y Backend (Cloud/Firebase)	$30 - $150/mes	Uso de Firebase u otro hosting económico para la base de datos.
-Chatbot IA en WhatsApp	$1,500 - $3,000	Chatbot en WhatsApp con respuestas automáticas y flujos predefinidos.
-Integración de pagos (MercadoPago)	$300 - $800	Integración directa con MercadoPago sin desarrollo adicional.
-Mantenimiento y mejoras	$150 - $500/mes	Costos de soporte y actualizaciones menores.
+<img width="865" height="280" alt="image" src="https://github.com/user-attachments/assets/3088d41b-7899-4eea-8db5-b81ad5de91ad" />
+
 
