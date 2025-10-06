@@ -5,7 +5,7 @@ La empresa analizada es una cadena de heladerías, con múltiples sucursales en 
 
 # Transformación del Proceso de Pedidos con aplicación de IA.
 
-# Objetivo del modelo: hacer un cambio en el proceso en base al reemplazo de las llamadas telefónicas por una aplicación tipo e-commerce y la asistencia vía whatsapp para tomar pedidosmediante un chatbot con IA.
+# Objetivo del modelo: hacer un cambio en el proceso en base al reemplazo de las llamadas telefónicas por una aplicación tipo e-commerce y la asistencia vía whatsapp para tomar pedidos mediante un chatbot con IA.
 
 #A. Migración de pedidos telefónicos a una app de pedidos tipo e-commerce
 En lugar de atender llamadas manualmente, se implementará una app móvil y web donde los clientes puedan hacer pedidos de manera rápida e intuitiva.
