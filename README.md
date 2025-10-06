@@ -1,4 +1,6 @@
 # HeladeriaWeb
+<img width="547" height="240" alt="image" src="https://github.com/user-attachments/assets/75e903a9-e06c-47f0-b42b-deebf571ecdb" />
+
 Chat inteligente para antención de clientes y venta de helados y complementos
 # Análisis del Mercado y Descripción de la Empresa
 La empresa analizada es una cadena de heladerías, con múltiples sucursales en la ciudad de Bahía Blanca, Argentina. Fundada por tres socios, la compañía se encuentra en una fase de consolidación con la visión estratégica de expandirse a través de un modelo de franquicias. Su propuesta de valor se basa en ofrecer productos de alta calidad con una variedad de sabores que atienden tanto a consumidores individuales como a clientes corporativos.
