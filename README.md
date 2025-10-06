@@ -1,6 +1,6 @@
 
 
-# ChatBot inteligente para antención de clientes y venta de helados y complementos
+# ChatBot inteligente para antención de clientes y venta de helados y complementos (detalles de la definición del proyecto)
 <img width="616" height="253" alt="image" src="https://github.com/user-attachments/assets/77dbc3c9-1b47-4c02-ba6d-feeea2b3ddfd" />
 
 
